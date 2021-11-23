@@ -1,0 +1,37 @@
+---
+title: "Kevin O'Brien - R Talks"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+R Talks 
+=====================
+
+Column {.tabset}
+--------------
+
+
+### Data Visualization
+
+* <a href="visualization/index.html">Data Visualization</a>
+
+* <a href="visualization/mosaic-plots.html">Mosaic Plots</a>
+
+* <a href="visualization/index.html">Sankey Plots</a>
+
+
+### Data Processing
+
+* Janitor R package
+* scales
+
+### Machine Learning
+
+*  <a href="machinelearning/index.html">Machine Learning</a>
