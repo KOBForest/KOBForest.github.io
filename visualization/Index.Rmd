@@ -20,14 +20,22 @@ Column {.tabset}
 
 ### Data Visualization
 
-<h5> Data Visualization</h5>
+
 
 * <a href="visualization/index.html">Data Visualization</a>
 
 * <a href="ggmosaic/ggmosaic-example.html">Mosaic Plots</a>
 
-* <a href="visualization/sankey-plots.html">Sankey Plots</a>
 
-* <a href="visualization/waterfall-plots.html">Waterfall Plots</a>
+* <a href="waterfall-plots/waterfall-plots.html">Waterfall Plots</a>
 
 * <a href="sunburstr/sunburstr.html">Sunburst Plots with R</a>
+
+
+### Sankey Plots
+
+
+<h5> Sankey Plots</h5>
+
+
+* <a href="sankey-plots/plotly-sankey.html">Sankey Plots</a>
