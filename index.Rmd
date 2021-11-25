@@ -32,6 +32,18 @@ Column {.tabset}
 * Janitor R package
 * scales
 
+
+### Report Automation
+
+<h5> Report Automation</h5>
+
+*  <a href="officerverse/index.html">officerverse: officer and flextable</a>
+
+
 ### Machine Learning
 
 *  <a href="machinelearning/index.html">Machine Learning</a>
+
+### Project Talamh
+
+*  <a href="talamh/index.html">Project Talamh</a>
