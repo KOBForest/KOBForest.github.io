@@ -1,20 +1,24 @@
----
-title: "Sunburst_Plotly_2"
-output: html_document
----
+Sunburst Charts with Plotly - Part 2 {data-navmenu="Packages"}
+========================================
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+
+Column {.tabset}
+--------------
+
+
+### Text
+
+<h5>Controlling text orientation inside sunburst sectors</h5>
+
+* The ``insidetextorientation`` attribute controls the orientation of text inside sectors. 
+
+* With "auto" the texts may automatically be rotated to fit with the maximum size inside the slice. Using "horizontal" (resp. "radial", "tangential") forces text to be horizontal (resp. radial or tangential). Note that plotly may reduce the font size in order to fit the text with the requested orientation.
+
+
+```{r echo=FALSE, warning=FALSE,include=FALSE}
+library(plotly)
 ```
-
-
-
-Controlling text orientation inside sunburst sectors
-
-The insidetextorientation attribute controls the orientation of text inside sectors. 
-
-With "auto" the texts may automatically be rotated to fit with the maximum size inside the slice. Using "horizontal" (resp. "radial", "tangential") forces text to be horizontal (resp. radial or tangential). Note that plotly may reduce the font size in order to fit the text with the requested orientation.
-
 
 ```{r}
 
@@ -45,11 +49,21 @@ fig <- fig %>% add_trace(
 
 )
 
+
+```
+
+
+### Output
+
+
+```{r}
+
 fig
 
 ```
 
-Subplots
+
+### Subplots
 
 In order to create sunburst chart subplots, we use the domain attribute and the layout grid attribute.
 
@@ -130,6 +144,13 @@ fig <- fig %>%
 
       extendsunburstcolors = TRUE)
 
+```
+
+
+### Output
+
+
+```{r}
 fig
 
  
@@ -138,7 +159,7 @@ fig
 
 
 
-#### Reference
+### Reference
 
 See https://plotly.com/r/reference/#sunburst for more information and chart attribute options!
 What About Dash?
@@ -149,6 +170,7 @@ Learn about how to install Dash for R at https://dashr.plot.ly/installation.
 
 Everywhere in this page that you see fig, you can display the same figure in a Dash for R application by passing it to the figure argument of the Graph component from the built-in dashCoreComponents package like this:
 
+### Dash
 
 <pre><code>
 library(plotly)
