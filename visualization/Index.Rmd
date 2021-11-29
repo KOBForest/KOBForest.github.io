@@ -31,6 +31,9 @@ Column {.tabset}
 
 * <a href="sunburstr/sunburstr.html">Sunburst Plots with R</a>
 
+* <a href="sunburstr/Sunburst_plotly.html">Sunburst Plots with Plotly</a>
+
+* <a href="sunburstr/Sunburst_plotly_2.html">Sunburst Plots with Plotly (continued)</a>
 
 ### Sankey Plots
 
