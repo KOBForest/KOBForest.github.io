@@ -40,9 +40,9 @@ Column {.tabset}
 
 #### 1. Shapefile for BAU 5 and 6
  * using the <tt>{sf}</tt> R package with <tt>{ggplot2}</tt>
- * RSJ completed first task
- * RSJ to colour in with median YC
-	- Remark We wont use Median YC in the long term, we will revert to Weighted Yield Class
+  - RSJ completed first task with <tt>{rgdal}</tt>
+ * RSJ to attempt a chloropleth map using ***median YC*** - using the <tt>{sf}</tt> R package
+	- Remark We wont use Median YC in the long term, we will revert to ***Weighted Yield Class***
 
 #### 2. Log Data 
  * KOB to provide Logs data for BAU 5 and 6. 
@@ -72,12 +72,18 @@ Column {.tabset}
 
 #### 7. Volumes per Subcompartment
  * Optimal cutting strategy for a given location. ,
- * Lets pick a subcomparment, and validate the volume produced according to the Test A cutting strategy.
+ * Lets pick a subcomparment, and validate the volume produced according to the ***Test A cutting strategy***.
  * Remark- output in denominated in terms of Volumes per Hectare.
  * Intermediate objective - determing the value per hectare for a given cutting strategy. 
+ * Harvest Units within CK06 and CK08 (2 or 3 from each)
+    - CK06-H0013, CK06-H0018, CK06-H0028
+ * KOB and RSJ to calculate separately
  
 #### 8. Tree Height Regression Models
   * We will progress to this later on.
   * In the mean time have a quick look at the following project.
   * https://rpubs.com/Pun_/PredictiveModellingofVolumeofCheeryTrees
   * The immediate objective to see do we have the right data to try this out.	
+
+### 9. For Later on
+ *  Missing Data Imputation for missing yield classes, etc
