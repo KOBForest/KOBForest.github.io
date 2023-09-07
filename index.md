@@ -67,6 +67,33 @@ London Explorer
 
 ### London Explorer
 
+* London Explorer
+
+<div align="center">
+<img src="London_Explorer.jpg" height=700>
+</div>
+
+
+London Explorer
+======================================================
+
+### Adding Colour Coding and Descriptions
+
+* London Explorer - More Sophistication
+
+<div align="center">
+<img src="London_Explorer_2.jpg" height=700>
+</div>
+
+
+
+
+
+London Explorer
+======================================================
+
+### London Explorer
+
 * Hobby Project - interesting places to visit in London
 
 * Extremely simple construction using following R packages
@@ -108,6 +135,43 @@ Useful:  `child = `
 Online Courses
 ======================================================
 
-### Coursera Course 
+### Coursera Course
+
+* Data Visualization & Dashboarding with R Specialization
+ 
+![Online Data Visualization Course](coursera_specialisation.jpg)
+
+
+Shiny Apps
+================================================
+
+### Interactive Dashboards 
+
+* Web-based, developed using R or Python
+
+* More Technically Sophisticated than flexdashboards
+
+* Account on ShinyApps.io
+
+* Build for deployment 
+
+* Use {rsconnect} R package
+
+* Use Log Files
+
+
+
+Shiny Apps
+================================================
+
+### Deployment
+
+* Deployment from the Command Line
+
+<div align="center">
+<img src="rsconnect_deployment.jpg" height=700>
+</div>
+
+
  
  
