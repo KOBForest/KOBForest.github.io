@@ -18,6 +18,30 @@ Using Interactive Dashboards for Public Communication
 ### Remark
 I amended the format of the presentation to accomodate the live-streaming and recording audience
 
+
+
+Future Forests (Appsilon)
+========================================================
+
+***https://connect.appsilon.com/future-forests/***
+
+<div align="center">
+<img src="FutureForest.jpg" height=800>
+</div>
+
+
+Dragonfly Survey
+=========================================
+
+***https://biodiversityireland.ie/surveys/dragonfly-ireland/***
+
+<div align="center">
+<img src="DragonflySurvey.jpg" height=700>
+</div>
+
+
+
+
 About Me
 ========================================================
 
@@ -105,7 +129,11 @@ London Explorer
  
  
   - <tt>{tidyverse} </tt> - a family of data processing tools
- 
+
+
+  - CSS : Cascading Style Sheets
+  
+  
 London Explorer
 ======================================================
 
@@ -173,5 +201,40 @@ Shiny Apps
 </div>
 
 
- 
+Optimal Usage
+==============================================
+
+* Preprocess the data objects before deployment and store them in an ***.rdata file*** in the Shiny App Folder
+
+
+Storing Objects in the Shiny App
+===============
+
+#### Preprocessing the Data
+
+```{r eval = FALSE}
+Project_A_1 <- runif(50)
+Project_A_2 <- iris %>% head(20)
+Project_A_3 <- mtcars %>% select(1:drat)
+Project_A_4 <- "Kevin"
+
+#  collect everything in the environment with the name "Project"
+grep("Project",ls(),value=TRUE)
+myObjectList <- grep("Project",ls(),value=TRUE)
+
+# Save these objects in an RDS file
+saveRDS(  eval(str2expression(myObjectList)), "Project.rds")
+```
+
+#### Inside Shiny App
+
+```{r eval = FALSE}
+
+
+# We are in the deployed shiny app now
+# Project.rds is located in the app folder
+
+readRDS("Project.rds")
+
+```
  
