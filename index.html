@@ -1063,6 +1063,32 @@ readRDS(&quot;Project.rds&quot;)
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
+<h3>Evaluating Strings</h3>
+<div class="slideContent" >
+<h4>Expressions</h4>
+
+<pre><code class="r">expression = &quot;5+5&quot;
+
+expression
+</code></pre>
+
+<pre><code>[1] &quot;5+5&quot;
+</code></pre>
+
+<p><p></p>
+
+<h4>Evaluating Strings</h4>
+
+<pre><code class="r">expression %&gt;% str2expression() %&gt;% eval()
+</code></pre>
+
+<pre><code>[1] 10
+</code></pre>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
 <h3>Expert-Beginner Problem </h3>
 <div class="slideContent" >
 <ul>

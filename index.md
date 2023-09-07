@@ -237,6 +237,38 @@ saveRDS(  eval(str2expression(myObjectList)), "Project.rds")
 readRDS("Project.rds")
 ```
  
+Evaluating Strings
+==============================
+
+
+
+
+#### Expressions
+
+
+```r
+expression = "5+5"
+
+expression
+```
+
+```
+[1] "5+5"
+```
+
+<p>
+
+#### Evaluating Strings
+
+
+```r
+expression %>% str2expression() %>% eval()
+```
+
+```
+[1] 10
+```
+
 
 Expert-Beginner Problem 
 ============================== 

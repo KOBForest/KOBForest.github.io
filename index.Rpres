@@ -238,6 +238,33 @@ readRDS("Project.rds")
 
 ```
  
+Evaluating Strings
+==============================
+
+
+```{r include =FALSE}
+library(magrittr)
+```
+
+#### Expressions
+
+```{r}
+
+expression = "5+5"
+
+expression
+
+```
+
+<p>
+
+#### Evaluating Strings
+
+```{r}
+
+expression %>% str2expression() %>% eval()
+```
+
 
 Expert-Beginner Problem 
 ============================== 
