@@ -237,3 +237,15 @@ saveRDS(  eval(str2expression(myObjectList)), "Project.rds")
 readRDS("Project.rds")
 ```
  
+
+Expert-Beginner Problem 
+============================== 
+
+* Tidyverse vs Base-R
+
+* Code Vocabulary very important
+
+* Expert-Beginner Problem - unhelpful discourse
+
+* Danger of Intellectual Comfort Zones
+
