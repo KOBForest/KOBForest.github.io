@@ -16,7 +16,7 @@ Using Interactive Dashboards for Public Communication
 - Shiny
 
 ### Remark
-I amended the format of the presentation to accomodate the live-streaming and recording audience
+I amended the format of the presentation to accommodate the live-streaming & recording audience, viewing on Youtube.
 
 
 
@@ -26,11 +26,11 @@ Future Forests (Appsilon)
 ***https://connect.appsilon.com/future-forests/***
 
 <div align="center">
-<img src="FutureForest.jpg" height=800>
+<img src="FutureForest.jpg" height=700>
 </div>
 
 
-Dragonfly Survey
+Citizen Science: Dragonfly Survey
 =========================================
 
 ***https://biodiversityireland.ie/surveys/dragonfly-ireland/***
@@ -51,7 +51,7 @@ About Me
 * **Important** This talk is not connected with Coillte
 <p>
 
-### Previous
+### Some Previous Roles
 
 * London Climate Change Coders
 * Audience Research at Jameson Dublin International Film Festival
@@ -89,21 +89,17 @@ Strategic Communication
 London Explorer
 ======================================================
 
-### London Explorer
-
-* London Explorer
 
 <div align="center">
 <img src="London_Explorer.jpg" height=700>
 </div>
 
 
-London Explorer
+Adding Colour Coding and Descriptions
 ======================================================
 
-### Adding Colour Coding and Descriptions
-
 * London Explorer - More Sophistication
+* Ease of Collaboration with non-technical contributors
 
 <div align="center">
 <img src="London_Explorer_2.jpg" height=700>
@@ -157,7 +153,11 @@ Modularisation of R Markdown Code
 
 Useful:  `child = `  
 
-![Modularisation of Flexdashboads](Flexdashboard_Modules.jpg)
+
+<div align="center">
+<img src="Flexdashboard_Modules.jpg" height=700>
+</div>
+
 
  
 Online Courses
@@ -166,9 +166,10 @@ Online Courses
 ### Coursera Course
 
 * Data Visualization & Dashboarding with R Specialization
- 
-![Online Data Visualization Course](coursera_specialisation.jpg)
 
+<div align="center">
+<img src="coursera_specialisation.jpg" height=700>
+</div>
 
 Shiny Apps
 ================================================
@@ -222,7 +223,15 @@ Project_A_4 <- "Kevin"
 #  collect everything in the environment with the name "Project"
 grep("Project",ls(),value=TRUE)
 myObjectList <- grep("Project",ls(),value=TRUE)
+```
 
+Stpring R Objects 
+===============
+
+#### Preprocessing the Data
+
+
+```r
 # Save these objects in an RDS file
 saveRDS(  eval(str2expression(myObjectList)), "Project.rds")
 ```
@@ -272,12 +281,15 @@ expression %>% str2expression() %>% eval()
 
 Expert-Beginner Problem 
 ============================== 
-
-* Tidyverse vs Base-R
-
-* Code Vocabulary very important
+<p>
 
 * Expert-Beginner Problem - unhelpful discourse
 
 * Danger of Intellectual Comfort Zones
+
+* "Tidyverse vs Base-R" - False Dichotomy
+
+* Expansive Code Vocabulary is **Very Important**
+
+
 
